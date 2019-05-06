@@ -1,6 +1,6 @@
 from socket import *
 import time
-serverName = '192.168.2.78' 
+serverName = '192.168.2.78' #you can put your Machine's  IP address here 
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_DGRAM) 
 clientSocket.settimeout(2.0);   #setting timeout of socket
